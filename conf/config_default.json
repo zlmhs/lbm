@@ -1,0 +1,10 @@
+{
+    "listeningPort": "8080",
+    "maxRequestCount": 1000000,
+    "maxRequestRecordCount": 1000,
+    "mode": "debug",
+    "processName": "",
+    "mainHost": "https://devwww.dyxsb.net",
+    "examHost": "https://devexams.dyxsb.net",
+    "staticServerHost":"http://devchat.dyxsb.net",
+}

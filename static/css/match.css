@@ -1,0 +1,411 @@
+#matchNotice .con{
+  margin: 30px 27px 26px;
+}
+#matchNotice .con li{
+  overflow: hidden;
+  padding-bottom: 24px;
+}
+#matchNotice .con li:nth-of-type(1){
+  padding-top: 30px;
+}
+#matchNotice .con li:nth-of-type(1)~li{
+  padding-top:26px;
+  border-top: 1px solid  #e7e7e7;
+}
+#matchNotice .con li>p{
+  float: left;
+  margin-right: 32px;
+}
+#matchNotice .con li>div{
+  float: left;
+}
+#matchNotice .con li>div p{
+  width: 534px;
+  letter-spacing: 1px;
+}
+#matchNotice .con li>div p.headP{
+  font-size: 28px;
+  margin-bottom: 14px;
+  color: #444;
+}
+#matchNotice .con li>div p.conP{
+  font-size: 24px;
+  color: #3e3e3e;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow : hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+/*赛事简介*/
+#matchAbstract .con{
+  padding: 0 31px 0 28px;
+}
+#matchAbstract .matchAbstract{
+  margin: 34px 0 30px 0;
+  font-size: 32px;
+  color: #252525;
+  border-left: 8px solid #444444;
+  text-indent: 18px;
+  letter-spacing: 1.5px;
+  height: 32px;
+  line-height: 32px;
+}
+#matchAbstract p.pCon{
+  text-indent: 2em;
+  font-size: 24px;
+  color: #444444;
+  line-height: 56px;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+
+/*课程简介*/
+#matchCourseAbstract {
+  padding-bottom: 88px;
+}
+#matchCourseAbstract .con .banner{
+  width: 718px;
+  height: 320px;
+  margin: 24px 16px 0;
+}
+#matchCourseAbstract .con .title{
+  margin: 24px 16px 40px ;
+  font-size: 36px;
+  color: #252525;
+  letter-spacing: 1.71px;
+  line-height: 36px;
+  height: 36px;
+}
+#matchCourseAbstract .con .people{
+  overflow: hidden;
+  border-bottom: 20px solid #f6f6f6;
+}
+#matchCourseAbstract .con .people img{
+  width: 210px;
+  height: 254px;
+  display: inline-block;
+  margin: 0 50px 40px 30px;
+  float: left;
+}
+#matchCourseAbstract .con .people div{
+  float: left;
+  width: 433px;
+}
+#matchCourseAbstract .con .people div p:nth-of-type(1){
+  font-size: 30px;
+  color: #3f3f3f;
+  margin-top: 24px;
+}
+#matchCourseAbstract .con .people div p:nth-of-type(1) span{
+  float: right;
+  font-size: 24px;
+  color: #444444;
+  letter-spacing: 1.6px;
+}
+#matchCourseAbstract .con .people div p:nth-of-type(2){
+  line-height: 50px;
+  font-size: 17px;
+  color: #424242;
+}
+#matchCourseAbstract .con .people div p:nth-of-type(3){
+  font-size: 24px;
+  color: #D53B49;
+}
+#matchCourseAbstract .con .people div p:nth-of-type(3) .book{
+  font-size: 22px;
+  color: #D53B49;
+  letter-spacing: 1.26px;
+  border: 1px solid #D53B49;
+  border-radius: 100px;
+  padding: 9px 17px;
+  float: right;
+}
+.math {
+  margin-top: 32px;
+}
+.math>button,.math>span{
+  display: inline-block;
+  float: left;
+}
+.decrease,.increase {
+  width: 66px;
+  height: 66px;
+  line-height: 66px;
+  text-align: center;
+  background:  #F6F6F6;
+  border:none;
+  outline:none;
+}
+.num{
+  font-size: 26px;
+  width:114px;
+  height: 66px;
+  text-align: center;
+  line-height: 66px;
+}
+.decrease span{
+  display: inline-block;
+  width: 32px;
+  height: 4px;
+  background:  #D8D8D8;
+}
+.increase{
+  font-size: 66px;
+  color:#D8D8D8;
+}
+#matchCourseAbstract .courceAbstract{
+  padding: 35px 30px 0;
+}
+#matchCourseAbstract .courceAbstract .courceT{
+  font-size: 32px;
+  color: #252525;
+  letter-spacing: 1.5px;
+  border-left: 8px solid #444444;
+  text-indent: 16px;
+  margin-bottom: 32px;
+  height: 33px;
+  line-height: 33px;
+}
+#matchCourseAbstract .courceAbstract .courceC{
+  font-size: 28px;
+  color: #444444;
+  letter-spacing: 1px;
+  line-height: 56px;
+  text-indent: 2em;
+  text-align: justify;
+}
+#matchCourseAbstract .footer{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  overflow: hidden;
+}
+#matchCourseAbstract .footer p{
+  height: 88px;
+  line-height: 88px;
+  width: 50%;
+  text-align: center;
+  float: left;
+}
+#matchCourseAbstract .footer p:nth-of-type(1){
+  background: #F6F6F6;
+  font-size: 32px;
+  color: #444444;
+  letter-spacing: 1.5px;
+}
+#matchCourseAbstract .footer p:nth-of-type(1) span{
+  font-size: 28px;
+  color: #D53B49;
+}
+#matchCourseAbstract .footer p:nth-of-type(2){
+  background: #D53B49 ;
+  font-size: 36px;
+  color: #F6F6F6;
+  letter-spacing: 1.5px;
+}
+
+
+/*今日要闻展开*/
+#newShare .con{
+  padding: 0 0 88px;
+}
+#newShare .conHeader{
+  overflow: hidden;
+  border-bottom: 2px solid #e9e9e9;
+}
+#newShare .conHeader img{
+  float: left;
+  width: 323px;
+  height: 88px;
+  margin:  16px 193px 16px 56px;
+}
+#newShare .conHeader button{
+  float: left;
+  padding: 10px 30px;
+  background: #CB2336;
+  box-shadow: 0 0 10px 0 rgba(192,6,38,0.20);
+  border-radius: 2px;
+  font-size: 28px;
+  color: #F6F6F6;
+  letter-spacing: 1.5px;
+  margin: 36px 0;
+}
+#newShare .conTitle{
+  margin: 24px 30px 0;
+  border-bottom: 1px solid #E6E6E6;
+}
+#newShare .conTitle p:nth-of-type(1){
+  font-size: 32px;
+  color: #252525;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+#newShare .conTitle p:nth-of-type(2){
+  margin: 29px 0 20px;
+}
+#newShare .conTitle p:nth-of-type(2) span{
+  font-size: 22px;
+  color: #9E9E9E;
+}
+#newShare .conTitle p:nth-of-type(2) span:nth-of-type(1){
+  color: #BA9961;
+  letter-spacing: 0.79px;
+  border: 1px solid #BA9961;
+  border-radius: 4px;
+  padding: 3px 4px 5px;
+}
+#newShare .conTitle p:nth-of-type(2) span:nth-of-type(2){
+  margin: 0 16px 0 27px;
+}
+#newShare .slideCon{
+  padding: 0 30px 30px;
+  border-bottom: 20px solid  #F6F6F6;
+}
+#newShare .slideCon .slideImg{
+  margin: 24px 0;
+  width: 690px;
+  height: 438px;
+}
+#newShare .slideCon #video{
+  height: 320px;
+  background: url('/device/images/video.png') 0 0 no-repeat;
+  position: relative;
+}
+#newShare .slideCon #video img{
+  width: 82px;
+  height: 82px;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  margin: -41px 0 0 -41px;
+}
+#newShare .slideCon .videoS{
+  text-indent: 2em;
+  font-size: 28px;
+  color: #444444;
+  line-height: 56px;
+  text-align: justify;
+}
+#newShare .recommend{
+  padding: 40px 30px 0;
+  border-bottom: 20px solid  #F6F6F6;
+}
+#newShare .recommend h1{
+  font-size: 32px;
+  color: #252525;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+#newShare .recommend ul li{
+  overflow: hidden;
+  padding: 30px 0 30px;
+}
+#newShare .recommend ul li:nth-of-type(1)~li{
+  border-top: 1px solid #e3e3e3;
+}
+#newShare .recommend ul li:nth-last-of-type(1){
+  padding-bottom: 40px;
+}
+#newShare .recommend ul li .liDiv{
+  float: left;
+  max-width: 432px;
+  margin-right: 20px;
+}
+#newShare .recommend ul li>img{
+  float: right;
+}
+#newShare .recommend ul li .liDiv p:nth-of-type(1){
+  font-size: 26px;
+  color: #4b4b4b;
+  margin-bottom: 40px;
+}
+#newShare .recommend ul li .liDiv p:nth-of-type(2) span{
+  font-size: 20px;
+  color: #a0a0a0;
+}
+#newShare .recommend ul li .liDiv p:nth-of-type(2) span.liDivBtn{
+  color: #5bafb7;
+  border: 1px solid #5bafb7;
+  padding: 5px 9px;
+  border-radius: 6px;
+}
+#newShare .recommend ul li .liDiv p:nth-of-type(2) span.liDivBtn+span{
+  margin: 0 20px;
+}
+#newShare .comment{
+  padding: 40px 30px 0;
+}
+#newShare .comment h1{
+  font-size: 32px;
+  color: #252525;
+  letter-spacing: 1.5px;
+}
+#newShare .comment ul{
+  margin-top: 40px;
+}
+#newShare .comment ul li{
+  overflow: hidden;
+}
+#newShare .comment ul li:nth-of-type(1)~li{
+  padding: 23px 0 0;
+}
+#newShare .comment ul li img{
+  width: 58px;
+  height: 58px;
+  float: left;
+}
+#newShare .comment ul li  div.commentCon{
+  float: left;
+  width: 616px;
+  margin: 0 0 0 16px;
+  border-bottom: 1px solid #E6E6E6;
+}
+#newShare .comment ul li  div p:nth-of-type(1){
+  font-size: 24px;
+  color: #4E4E4E;
+  letter-spacing: 1.5px;
+}
+#newShare .comment ul li  div p:nth-of-type(2){
+  font-size: 20px;
+  color: #999999;
+  letter-spacing: 1px;
+}
+#newShare .comment ul li div p:nth-of-type(3){
+  font-size: 28px;
+  color: #444444;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin: 24px 0;
+}
+#newShare .footer{
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 14px 0 14px 30px;
+  background: #FFFFFF;
+  box-shadow: 0 -2px 4px 0 rgba(0,0,0,0.06);
+}
+#newShare .footer input{
+  float: left;
+  width: 616px;
+  height: 60px;
+  box-sizing: border-box;
+  background: #F6F6F6;
+  border: 1px solid #F1F1F1;
+  border-radius: 6px;
+  padding: 18px 0 20px 26px;
+  font-size: 22px;
+}
+#newShare .footer .ipt::-webkit-input-placeholder{
+  font-size: 22px;
+  color: #ABABAB;
+  letter-spacing: 0.69px;
+}
+#newShare .footer img{
+  float: left;
+  margin: 9px 0 0 30px;
+}
